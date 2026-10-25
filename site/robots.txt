@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://seriesoftub.es/sitemap.xml

@@ -1,0 +1,19 @@
+{
+  "name": "seriesoftubes",
+  "version": "1.25.2",
+  "description": "A cartoon browser game about building the internet.",
+  "private": true,
+  "license": "MIT",
+  "homepage": "https://seriesoftub.es/",
+  "repository": { "type": "git", "url": "git+https://github.com/fjaeckel/seriesoftubes.git" },
+  "scripts": {
+    "test": "node --test --test-concurrency=1 tests/game.test.js tests/build.test.js tests/persist.test.js tests/services.test.js tests/peering.test.js tests/issues.test.js tests/regions.test.js tests/modes.test.js tests/i18n.test.js",
+    "build": "bash scripts/build.sh",
+    "i18n:check": "node scripts/i18n-check.js",
+    "serve": "npm run build && npx --yes serve@14.2.4 _site"
+  },
+  "engines": { "node": ">=20" },
+  "devDependencies": {
+    "jsdom": "24.1.3"
+  }
+}

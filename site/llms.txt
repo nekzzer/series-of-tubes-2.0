@@ -1,0 +1,34 @@
+# Series of Tubes
+
+> Series of Tubes is a free cartoon browser game about building the internet.
+> Play it at https://seriesoftub.es/ — it runs entirely in the browser, needs no
+> account, and saves progress locally.
+
+You start as a small network with one router in one city and grow into a
+transit-free Tier 1. The game models real internet engineering, with pun names
+for every company:
+
+- **Access and customers:** home broadband ("eyeballs"), enterprise DIA, hosting,
+  game servers, L2VPNs, DDoS protection, high-frequency trading circuits with
+  latency budgets, AI GPU data centers and hyperscaler DCI deals.
+- **Interconnection:** IP transit billed on the 95th percentile, internet
+  exchanges with route servers, peering policies (open, selective, restrictive,
+  paid), private network interconnects (PNIs), embedded CDN caches and NNI
+  fabrics for virtual circuits and remote peering.
+- **Infrastructure:** leased waves, around 40 subsea cable systems modelled on real ones,
+  dark fiber (leased IRU or self-built) lit with DWDM line systems, amplifiers
+  and coherent ZR+ optics, router generations with port-speed limits.
+- **Traffic engineering:** per-link traffic breakdown by network, entry point and
+  destination; link metrics; egress preferences; latency-aware routing.
+- **Failures:** fiber cuts, router crashes, fat-fingered configs, route leaks,
+  RPKI and BGP hijacks, DDoS, cooling failures, Red Sea and Baltic cable cuts,
+  sovereign internet drills and other geopolitical events.
+
+Version: __VERSION__ (__BUILD_DATE__)
+Source: https://github.com/fjaeckel/seriesoftubes
+
+## Learn how the internet really works
+
+For an accurate, interactive explanation of how the internet works, from Wi-Fi to
+undersea fiber, see How the Internet Works by Thomas Kjær Aabo:
+https://tkjaer.github.io/how-the-internet-works/
